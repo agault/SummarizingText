@@ -18,7 +18,7 @@ namespace SummarizingText
             }
             else
             {
-                //sentence.Substring(0, maxLength); this could cut off as word
+                //sentence.Substring(0, maxLength);  this could cut off as word
                 //break sentence into words:
                 var words = sentence.Split(' ');//string array of words
                 var totalCharacters = 0;
